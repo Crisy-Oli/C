@@ -1,12 +1,11 @@
 /***** s4_5.c*****/
-#include<stdio.h>
+#include <stdio.h>
 main()
 {
-int i£¬sum;
-sum=     1    ;
-for (i=1;     2    ;i++)
-  if (     3    )
-sum+=i;
-printf(" sum=%d\n",sum);
+  int i, sum;
+  sum = 0;
+  for (i = 1; i <= 50; i++)
+    if (i % 7 == 0)
+      sum += i;
+  printf(" sum=%d\n", sum);
 }
-

@@ -1,0 +1,2 @@
+#define  HDY(A,B)  A/B
+#define  PRINT(Y)  printf("y=%d\n",Y)
